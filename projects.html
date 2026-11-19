@@ -13,41 +13,33 @@
 
 <body>
 
-    <!-- =====================================
-         HEADER AND NAVIGATION
-    ====================================== -->
-
+    <!-- HEADER AND NAVIGATION -->
     <header>
-         <nav>
-    <div class="logo">AFIQ FARHAN BIN ABDUL KHAMIS.</div>
+        <nav>
+            <div class="logo">AFIQ FARHAN BIN ABDUL KHAMIS.</div>
 
-    <button class="menu-toggle" id="menuToggle"
-            aria-label="Open navigation menu"
-            aria-expanded="false">
-        ☰
-    </button>
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
 
-    <ul id="navMenu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+            <ul id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-
-    <!-- =====================================
-         MAIN CONTENT
-    ====================================== -->
-
+    <!-- MAIN CONTENT -->
     <main>
 
         <section class="projects-section">
 
-            <!-- Page Heading -->
-
+            <!-- PAGE HEADING -->
             <div class="section-heading">
 
                 <p>MY ENGINEERING WORK</p>
@@ -62,24 +54,19 @@
 
             </div>
 
-
-            <!-- =====================================
-                 PROJECT CONTAINER
-            ====================================== -->
-
+            <!-- PROJECT CONTAINER -->
             <div class="projects-container">
-
 
                 <!-- =================================
                      PROJECT 1
                 ================================== -->
-
                 <article class="project-card">
 
                     <div class="project-slider">
 
                         <img src="images/project1-1.jpeg"
-                             alt="Egg incubator project image 1">
+                             alt="Egg incubator project image 1"
+                             class="active">
 
                         <img src="images/project1-2.jpeg"
                              alt="Egg incubator project image 2">
@@ -108,10 +95,9 @@
                             &#10095;
                         </button>
 
-                        <div class="slide-counter"></div>
+                        <div class="slide-counter">1 / 6</div>
 
                     </div>
-
 
                     <div class="project-content">
 
@@ -124,268 +110,72 @@
                             KV Pertanian Chenor, Pahang
                         </h2>
 
-                        <h3>Project Overview</h3>
-
                         <p>
-                            An egg incubator monitoring system
-                            developed for KV Pertanian Chenor,
-                            Pahang, to monitor environmental
-                            conditions during the egg incubation
-                            process.
-                        </p>
-
-                        <h3>Project Focus</h3>
-
-                        <p>
-                            Temperature and humidity monitoring,
-                            sensor integration, data recording
-                            and notification features.
+                            An egg incubator monitoring system using
+                            ESP32 and sensors to monitor temperature
+                            and humidity during the incubation process.
                         </p>
 
                         <h3>Tools and Technologies</h3>
 
+                        <ul>
+                            <li>ESP32</li>
+                            <li>SHT31 Temperature and Humidity Sensor</li>
+                            <li>LCD Display and Buzzer</li>
+                            <li>Arduino IDE</li>
+                            <li>Google Sheets and ThingSpeak</li>
+                            <li>Grafana / Looker Studio</li>
+                            <li>Telegram Notification</li>
+                        </ul>
+
+                        <h3>Key Activities</h3>
+
+                        <ul>
+                            <li>Developed an ESP32-based monitoring system.</li>
+                            <li>Monitored temperature and humidity inside the incubator.</li>
+                            <li>Displayed sensor readings on an LCD.</li>
+                            <li>Integrated online data monitoring and Telegram alerts.</li>
+                        </ul>
+
+                        <h3>Project Outcome</h3>
+
                         <p>
-                            ESP32, SHT31 Sensor, LCD Display,
-                            Arduino IDE, Google Sheets,
-                            ThingSpeak and Telegram.
+                            Developed an intelligent monitoring system
+                            to help maintain suitable incubation
+                            conditions and provide alerts when attention
+                            is required.
                         </p>
 
                     </div>
 
                 </article>
-
 
 
                 <!-- =================================
                      PROJECT 2
                 ================================== -->
-
-                <article class="project-card">
-
-                  <div class="project-slider">
-                            <img src="images/project2-1.jpeg"
-                                alt="Automotive Absorber Production Line"
-                                class="active">
-
-                             <img src="images/project2-2.jpeg"
-                                alt="Automotive Absorber Assembly Process">
-
-                             <img src="images/project2-3.jpeg"
-                               alt="Automotive Absorber Project">
-
-                             <img src="images/project2-4.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <img src="images/project2-5.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <img src="images/project2-6.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <button class="slide-btn prev">&#10094;</button>
-                            <button class="slide-btn next">&#10095;</button>
-
-              <div class="slide-counter">1 / 6</div>
-
-                </div>
-
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            Teaching Factory
-                        </p>
-
-                        <h2>
-                            Teaching Factory – Automotive Absorber
-                            Assembly Production Line (UMPSA)
-                        </h2>
-
-                        <h3>Project Overview</h3>
-
-                        <p>
-                            An automotive absorber assembly
-                            production line project at Universiti
-                            Malaysia Pahang Al-Sultan Abdullah
-                            (UMPSA).
-                        </p>
-
-                        <h3>Project Focus</h3>
-
-                        <p>
-                            Industrial production processes,
-                            assembly operations and automation
-                            learning.
-                        </p>
-
-                        <h3>Tools and Technologies</h3>
-
-                        <p>
-                            Update this section with the actual
-                            machines, automation equipment and
-                            software used in this project.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-
-                <!-- =================================
-                     PROJECT 3
-                ================================== -->
-
-                <article class="project-card">
-
-               <div class="project-slider">
-                            <img src="images/project3-1.jpeg"
-                                alt="Automotive Absorber Production Line"
-                                class="active">
-
-                             <img src="images/project3-2.jpeg"
-                                alt="Automotive Absorber Assembly Process">
-
-                             <img src="images/project3-3.jpeg"
-                               alt="Automotive Absorber Project">
-
-                             <img src="images/project3-4.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <img src="images/project3-5.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <button class="slide-btn prev">&#10094;</button>
-                            <button class="slide-btn next">&#10095;</button>
-
-              <div class="slide-counter">1 / 5</div>
-
-                </div>
-
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            Industrial Automation
-                        </p>
-
-                        <h2>
-                            Integration of 16 Automation Stations:
-                            Advancing Industrial Learning and
-                            Digital Twins at FTKEE
-                        </h2>
-
-                        <h3>Project Overview</h3>
-
-                        <p>
-                            An automation integration initiative
-                            involving 16 automation stations to
-                            support industrial learning and digital
-                            twin development at FTKEE.
-                        </p>
-
-                        <h3>Project Focus</h3>
-
-                        <p>
-                            Automation station integration,
-                            industrial learning and digital
-                            twin technology.
-                        </p>
-
-                        <h3>Tools and Technologies</h3>
-
-                        <p>
-                            Update this section with the actual
-                            PLCs, software, communication systems
-                            and equipment used.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-
-                <!-- =================================
-                     PROJECT 4
-                ================================== -->
-
-                <article class="project-card">
-
-                <div class="project-slider">
-                            <img src="images/project4-1.jpeg"
-                                alt="Automotive Absorber Production Line"
-                                class="active">
-
-                             <img src="images/project4-2.jpeg"
-                                alt="Automotive Absorber Assembly Process">
-
-                             <img src="images/project4-3.jpeg"
-                               alt="Automotive Absorber Project">
-
-                             <img src="images/project4-4.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <img src="images/project4-5.jpeg"
-                               alt="Automotive Absorber Assembly System">
-
-                            <button class="slide-btn prev">&#10094;</button>
-                            <button class="slide-btn next">&#10095;</button>
-
-              <div class="slide-counter">1 / 5</div>
-
-                </div>
-
-
-                    <div class="project-content">
-
-                        <p class="project-category">
-                            Water Monitoring System
-                        </p>
-
-                        <h2>
-                            Monitoring Water Tank at
-                            Masjid Al-Jazari (UMPSA)
-                        </h2>
-
-                        <h3>Project Overview</h3>
-
-                        <p>
-                            A water tank monitoring project
-                            developed for Masjid Al-Jazari
-                            at Universiti Malaysia Pahang
-                            Al-Sultan Abdullah.
-                        </p>
-
-                        <h3>Project Focus</h3>
-
-                        <p>
-                            Water tank monitoring and
-                            observation of water conditions.
-                        </p>
-
-                        <h3>Tools and Technologies</h3>
-
-                        <p>
-                            Update this section with the actual
-                            sensors, controller and software
-                            used in this project.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-
-                <!-- =================================
-                     PROJECT 5
-                ================================== -->
-
                 <article class="project-card">
 
                     <div class="project-slider">
 
-                        <img src="images/project5-1.jpg"
-                             alt="Malay Cino energy monitoring project">
+                        <img src="images/project2-1.jpeg"
+                             alt="Automotive absorber assembly production line"
+                             class="active">
+
+                        <img src="images/project2-2.jpeg"
+                             alt="Industrial robotic arm">
+
+                        <img src="images/project2-3.jpeg"
+                             alt="Siemens PLC automation system">
+
+                        <img src="images/project2-4.jpeg"
+                             alt="Conveyor and motor system">
+
+                        <img src="images/project2-5.jpeg"
+                             alt="Automated production line">
+
+                        <img src="images/project2-6.jpeg"
+                             alt="Automotive absorber assembly process">
 
                         <button class="slide-btn prev"
                                 type="button"
@@ -399,10 +189,273 @@
                             &#10095;
                         </button>
 
-                        <div class="slide-counter"></div>
+                        <div class="slide-counter">1 / 6</div>
 
                     </div>
 
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Industrial Automation
+                        </p>
+
+                        <h2>
+                            Teaching Factory – Automotive Absorber
+                            Assembly Production Line (UMPSA)
+                        </h2>
+
+                        <p>
+                            An industrial automation project involving
+                            an automotive absorber assembly production
+                            line using a robotic arm, Siemens PLC,
+                            conveyor and motor.
+                        </p>
+
+                        <h3>Tools and Technologies</h3>
+
+                        <ul>
+                            <li>Industrial Robotic Arm</li>
+                            <li>Siemens PLC</li>
+                            <li>Conveyor System</li>
+                            <li>Electric Motor</li>
+                        </ul>
+
+                        <h3>Key Activities</h3>
+
+                        <ul>
+                            <li>Explored robotic arm applications in production.</li>
+                            <li>Worked with Siemens PLC and conveyor systems.</li>
+                            <li>Learned how automation components work together.</li>
+                        </ul>
+
+                        <h3>Project Outcome</h3>
+
+                        <p>
+                            Demonstrated the use of industrial automation
+                            in an automotive absorber assembly process.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================
+                     PROJECT 3
+                ================================== -->
+                <article class="project-card">
+
+                    <div class="project-slider">
+
+                        <img src="images/project3-1.jpeg"
+                             alt="Automation station 1"
+                             class="active">
+
+                        <img src="images/project3-2.jpeg"
+                             alt="Automation station 2">
+
+                        <img src="images/project3-3.jpeg"
+                             alt="Pneumatic and motor training station">
+
+                        <img src="images/project3-4.jpeg"
+                             alt="Water tank automation training station">
+
+                        <img src="images/project3-5.jpeg"
+                             alt="Integrated automation stations">
+
+                        <button class="slide-btn prev"
+                                type="button"
+                                aria-label="Previous image">
+                            &#10094;
+                        </button>
+
+                        <button class="slide-btn next"
+                                type="button"
+                                aria-label="Next image">
+                            &#10095;
+                        </button>
+
+                        <div class="slide-counter">1 / 5</div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Automation Integration
+                        </p>
+
+                        <h2>
+                            Integration of 16 Automation Stations:
+                            Advancing Industrial Learning and
+                            Digital Twins at FTKEE
+                        </h2>
+
+                        <p>
+                            A project involving the integration of
+                            16 automation stations using PLCs,
+                            training kits and WECON HMIs through
+                            a LAN network.
+                        </p>
+
+                        <h3>Tools and Technologies</h3>
+
+                        <ul>
+                            <li>PLC</li>
+                            <li>WECON HMI</li>
+                            <li>Pneumatic Training Kit</li>
+                            <li>Motor Training Kit</li>
+                            <li>Water Tank Training Kit</li>
+                            <li>LAN RJ45 Cable</li>
+                        </ul>
+
+                        <h3>Key Activities</h3>
+
+                        <ul>
+                            <li>Integrated automation stations through a LAN network.</li>
+                            <li>Worked with PLC and WECON HMI communication.</li>
+                            <li>Explored different industrial automation training kits.</li>
+                        </ul>
+
+                        <h3>Project Outcome</h3>
+
+                        <p>
+                            Connected multiple automation stations
+                            to support industrial learning and
+                            automation system integration.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================
+                     PROJECT 4
+                ================================== -->
+                <article class="project-card">
+
+                    <div class="project-slider">
+
+                        <img src="images/project4-1.jpeg"
+                             alt="Water tank monitoring system"
+                             class="active">
+
+                        <img src="images/project4-2.jpeg"
+                             alt="Water tank control panel">
+
+                        <img src="images/project4-3.jpeg"
+                             alt="WECON PLC integration">
+
+                        <img src="images/project4-4.jpeg"
+                             alt="HMI monitoring interface">
+
+                        <img src="images/project4-5.jpeg"
+                             alt="MQTT online monitoring dashboard">
+
+                        <button class="slide-btn prev"
+                                type="button"
+                                aria-label="Previous image">
+                            &#10094;
+                        </button>
+
+                        <button class="slide-btn next"
+                                type="button"
+                                aria-label="Next image">
+                            &#10095;
+                        </button>
+
+                        <div class="slide-counter">1 / 5</div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            Water Tank Monitoring
+                        </p>
+
+                        <h2>
+                            Monitoring Water Tank at
+                            Masjid Al-Jazari (UMPSA)
+                        </h2>
+
+                        <p>
+                            A water tank monitoring project using
+                            a WECON PLC and HMI to monitor water
+                            level and pressure through an online dashboard.
+                        </p>
+
+                        <h3>Tools and Technologies</h3>
+
+                        <ul>
+                            <li>WECON LX6C PLC</li>
+                            <li>WECON HMI</li>
+                            <li>Pressure Sensor</li>
+                            <li>Water Level Sensor</li>
+                            <li>Timer Relay</li>
+                            <li>MQTT Dashboard</li>
+                        </ul>
+
+                        <h3>Key Activities</h3>
+
+                        <ul>
+                            <li>Connected the PLC to the existing water tank control panel.</li>
+                            <li>Monitored water level and pressure information.</li>
+                            <li>Used MQTT to display monitoring data on an online dashboard.</li>
+                        </ul>
+
+                        <h3>Project Outcome</h3>
+
+                        <p>
+                            Provided an online monitoring system
+                            for checking water tank conditions and
+                            supporting easier system observation.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =================================
+                     PROJECT 5
+                ================================== -->
+                <article class="project-card">
+
+                    <div class="project-slider">
+
+                        <img src="images/project5-1.jpeg"
+                             alt="Industrial energy monitoring system"
+                             class="active">
+
+                        <img src="images/project5-2.jpeg"
+                             alt="WECON PLC energy monitoring">
+
+                        <img src="images/project5-3.jpeg"
+                             alt="WECON HMI monitoring interface">
+
+                        <img src="images/project5-4.jpeg"
+                             alt="Digital power meter readings">
+
+                        <img src="images/project5-5.jpeg"
+                             alt="V-NET online energy monitoring dashboard">
+
+                        <button class="slide-btn prev"
+                                type="button"
+                                aria-label="Previous image">
+                            &#10094;
+                        </button>
+
+                        <button class="slide-btn next"
+                                type="button"
+                                aria-label="Next image">
+                            &#10095;
+                        </button>
+
+                        <div class="slide-counter">1 / 5</div>
+
+                    </div>
 
                     <div class="project-content">
 
@@ -411,38 +464,47 @@
                         </p>
 
                         <h2>
-                            Monitoring Energy System at
-                            Malay Cino (CCM), Kemaman,
-                            Terengganu
+                            Monitoring Energy System at Malay Cino
+                            (CCM), Kemaman, Terengganu
                         </h2>
 
-                        <h3>Project Overview</h3>
-
                         <p>
-                            An industrial energy monitoring
-                            project developed for Malay Cino
-                            (CCM), Kemaman, Terengganu.
-                        </p>
-
-                        <h3>Project Focus</h3>
-
-                        <p>
-                            Energy data monitoring, PLC and HMI
-                            communication and cloud data
-                            integration.
+                            An industrial energy monitoring project
+                            that collects active energy readings
+                            from four digital power meters and
+                            displays the information on an online dashboard.
                         </p>
 
                         <h3>Tools and Technologies</h3>
 
+                        <ul>
+                            <li>WECON LX6C PLC</li>
+                            <li>WECON PI3070ig HMI</li>
+                            <li>PIStudio</li>
+                            <li>Ethernet Communication</li>
+                            <li>Data Cloud / V-NET</li>
+                            <li>Digital Power Meters (DPM1–DPM4)</li>
+                        </ul>
+
+                        <h3>Key Activities</h3>
+
+                        <ul>
+                            <li>Configured PLC and HMI communication.</li>
+                            <li>Collected active energy readings from four power meters.</li>
+                            <li>Configured Data Cloud / V-NET for online monitoring.</li>
+                        </ul>
+
+                        <h3>Project Outcome</h3>
+
                         <p>
-                            WECON LX6C PLC, WECON PI3070ig HMI,
-                            PIStudio, Ethernet and V-NET Data Cloud.
+                            Developed an online energy monitoring
+                            system to display readings from four
+                            digital power meters.
                         </p>
 
                     </div>
 
                 </article>
-
 
             </div>
 
@@ -451,30 +513,22 @@
     </main>
 
 
-    <!-- =====================================
-         FOOTER
-    ====================================== -->
-
+    <!-- FOOTER -->
     <footer>
-
         <p>
             &copy; 2026 Afiq Farhan. All Rights Reserved.
         </p>
-
     </footer>
 
 
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTop" title="Back to Top">
+        ↑
+    </button>
+
+
     <!-- JAVASCRIPT -->
-
-       <!-- Back to Top Button -->
-<button id="backToTop" title="Back to Top">
-    ↑
-</button>
-
-
     <script src="js/script.js"></script>
 
- 
 </body>
-
 </html>
